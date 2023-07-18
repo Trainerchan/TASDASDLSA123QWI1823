@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. 安装环境
     pip install -r requirements.txt
 2. 运行 main.py
@@ -9,3 +10,6 @@
     pyinstaller -F --distpath=E:\PycharmProjects\PyQtAutoPainter\dist --workpath=E:\PycharmProjects\PyQtAutoPainter\dist\build E:\PycharmProjects\PyQtAutoPainter\main.py --name=自动绘画UI测试版
 2. 正式版打包指令
     pyinstaller -F -w --distpath=E:\PycharmProjects\PyQtAutoPainter\dist --workpath=E:\PycharmProjects\PyQtAutoPainter\dist\build E:\PycharmProjects\PyQtAutoPainter\main.py --name=自动绘画UI
+=======
+# TASDASDLSA123QWI1823
+>>>>>>> cc1745c1e15a9b12def9992be83c6a53979d1b42
