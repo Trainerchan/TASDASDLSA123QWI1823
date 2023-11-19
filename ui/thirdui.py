@@ -78,6 +78,7 @@ class Ui_Form(object):
         font.setBold(True)
         font.setWeight(75)
         self.show_img_label.setFont(font)
+        self.show_img_label.setText("")
         self.show_img_label.setScaledContents(True)
         self.show_img_label.setAlignment(QtCore.Qt.AlignCenter)
         self.show_img_label.setObjectName("show_img_label")
@@ -90,10 +91,9 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "自动绘画UI"))
-        self.add_btn.setText(_translate("Form", "Add"))
+        self.add_btn.setText(_translate("Form", "Add Svg File"))
         self.back_btn.setText(_translate("Form", "Back"))
         self.start_btn.setText(_translate("Form", "Start"))
-        self.show_img_label.setText(_translate("Form", "Image Show"))
 
 
 if __name__ == "__main__":

@@ -42,7 +42,7 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "自动绘画UI"))
-        self.add_btn.setText(_translate("Form", "Add"))
+        self.add_btn.setText(_translate("Form", "Choose"))
         self.back_btn.setText(_translate("Form", "Back"))
 
 

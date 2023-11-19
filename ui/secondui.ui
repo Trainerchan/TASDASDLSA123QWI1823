@@ -43,7 +43,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Add</string>
+    <string>Choose</string>
    </property>
   </widget>
   <widget class="QPushButton" name="back_btn">
